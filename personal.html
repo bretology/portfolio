@@ -26,7 +26,7 @@
 <body>
 
     <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
-        <div class="container-fluid">
+        <div class="container-fluid bg-color-fix">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
@@ -38,9 +38,9 @@
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
-                    <li>
+               <!--      <li>
                         <a class="page-scroll" href="#about">About</a>
-                    </li>
+                    </li> -->
                     <li>
                         <a class="page-scroll" href="#portfolio">Portfolio</a>
                     </li>
@@ -62,9 +62,14 @@
             <div class="header-content-inner">
                 <h1 id="homeHeading">JAMES BRELAND</h1>
                 <hr>
-                <p>Visual Designer. Full Stack Developer (coming soon). Multipotentialite</p>
-                <a href="#about" class="btn btn-primary btn-xl page-scroll">Click Me</a>
+                                <img src="file:///Users/itsasecret/Desktop/images/IMG_2428.JPG" id = "imgPadding" class="img-circle" alt="Cinque Terre" width="304" height="236">
+
+                <p id = "textColorFix">Visual Designer. Full Stack Developer (coming soon). Multipotentialite</p>
+                <a href="https://www.linkedin.com/in/james-breland-0780a699" class="btn btn-primary btn-xl page-scroll">LinkedIn</a>
+                <a href="https://github.com/jrbr3land" class="btn btn-primary btn-xl page-scroll">GitHub</a>
+                <a href="https://bretology.com" class="btn btn-primary btn-xl page-scroll">Bretology</a>
             </div>
+
         </div>
     </header>
       </div>
@@ -75,7 +80,7 @@
             <div class="row no-gutter popup-gallery">
                 <div class="col-lg-4 col-sm-6">
                     <a href="http://pushfoundry.com" class="portfolio-box">
-                        <img src="file:///Volumes/Seagate%20Backup%20Plus%20Drive/Misc/8.jpg" class="img-responsive" alt="">
+                        <img src="file:///Users/itsasecret/Desktop/images/8.jpg" class="img-responsive" alt="">
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
                                 <div class="project-category text-faded">
@@ -87,7 +92,7 @@
                 </div>
                 <div class="col-lg-4 col-sm-6">
                     <a href="http://runofftactical.com" class="portfolio-box">
-                        <img src="file:///Volumes/Seagate%20Backup%20Plus%20Drive/Misc/2nd.jpg" class="img-responsive" alt="">
+                        <img src="file:///Users/itsasecret/Desktop/images/2nd.jpg" class="img-responsive" alt="">
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
                                 <div class="project-category text-faded">
@@ -98,8 +103,8 @@
                     </a>
                 </div>
                 <div class="col-lg-4 col-sm-6">
-                    <a href="file:///Volumes/Seagate%20Backup%20Plus%20Drive/Misc/9.jpg" class="portfolio-box">
-                        <img src="file:///Volumes/Seagate%20Backup%20Plus%20Drive/Misc/9.jpg" class="img-responsive" alt="">
+                    <a href="file:///Users/itsasecret/Desktop/images/9.jpg" class="portfolio-box">
+                        <img src="file:///Users/itsasecret/Desktop/images/9.jpg" class="img-responsive" alt="">
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
                                 <div class="project-category text-faded">
@@ -110,8 +115,8 @@
                     </a>
                 </div>
                 <div class="col-lg-4 col-sm-6">
-                    <a href="file:///Volumes/Seagate%20Backup%20Plus%20Drive/Misc/StraightWood.jpg" class="portfolio-box">
-                        <img src="file:///Volumes/Seagate%20Backup%20Plus%20Drive/Misc/StraightWood.jpg" class="img-responsive" alt="">
+                    <a href="file:///Users/itsasecret/Desktop/images/StraightWood.jpg" class="portfolio-box">
+                        <img src="file:///Users/itsasecret/Desktop/images/StraightWood.jpg" class="img-responsive" alt="">
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
                                 <div class="project-category text-faded">
@@ -123,7 +128,7 @@
                 </div>
                 <div class="col-lg-4 col-sm-6">
                     <a href="file:///Volumes/Seagate%20Backup%20Plus%20Drive/Misc/110_Isometric/game110Demo/game110Demo.html" class="portfolio-box">
-                        <img src="file:///Volumes/Seagate%20Backup%20Plus%20Drive/MissionWolfEmblem.jpg" class="img-responsive" alt="">
+                        <img src="file:///Users/itsasecret/Desktop/images/MissionWolfEmblem.jpg" class="img-responsive" alt="">
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
                                 <div class="project-category text-faded">
@@ -149,27 +154,37 @@
         </div>
     </section>
 
-    <section id="contact">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <h2 class="section-heading">Contact Me (not really)</h2>
-                    <hr class="primary">
-<!--                     <p></p> -->
-                </div>
-                <div class="col-lg-4 col-lg-offset-2 text-center">
-                    <i class="fa fa-phone fa-3x sr-contact"></i>
-                    <p>555-555-5555</p>
-                </div>
-                <div class="col-lg-4 text-center">
-                    <i class="fa fa-envelope-o fa-3x sr-contact"></i>
-                    <p><a href="mailto:k_adamas@hotmail.com">email me</a></p>
-                </div>
-            </div>
+    <div class="container" id = "contact">
+  <h3 class="text-center">Contact Me</h3>
+  <p class="text-center"><em>Not Really! This Doesn't Work Yet.</em></p>
+  <div class="row test">
+    <div class="col-md-4">
+      <p>Some Contact Info.</p>
+      <p><span class="glyphicon glyphicon-map-marker"></span>San Francisco, US</p>
+      <p><span class="glyphicon glyphicon-phone"></span>Phone: 555.555.5555</p>
+      <p><span class="glyphicon glyphicon-envelope"></span>Email: jray.breland@gmail.com</p>
+      <p><span class="glyphicon glyphicon-user"></span>Resume:&nbsp;<a href = "file:///Users/itsasecret/Desktop/SweetResume.jpg">Click Here</a></p></p>
+    </div>
+    <div class="col-md-8">
+      <div class="row">
+        <div class="col-sm-6 form-group">
+          <input class="form-control" id="name" name="name" placeholder="Name" type="text" required>
         </div>
-    </section>
+        <div class="col-sm-6 form-group">
+          <input class="form-control" id="email" name="email" placeholder="Email" type="email" required>
+        </div>
+      </div>
+      <textarea class="form-control" id="comments" name="comments" placeholder="Comment" rows="5"></textarea>
+      <div class="row">
+        <div class="col-md-12 form-group">
+          <button class="btn pull-right" type="submit">Send</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
 
-    <section>
+<!--     <section>
         <div class = "container-fluid" id = "socialBoxes">
             <div id = "soMeOne"></div>
             <div id = "soMeOne"></div>
@@ -182,4 +197,4 @@
     </div>
 
 </body>
-</html>
+</html> -->
